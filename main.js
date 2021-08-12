@@ -25,7 +25,8 @@ nextBtn.addEventListener('click', () => {
     body.style.backgroundSize =`cover`
     img.src=`./images/pic-${imgNum}.jpeg`
 
-
+       imgSara.innerText = imgNum
+    
 })
 
 
@@ -44,7 +45,7 @@ prevBtn.addEventListener('click', () => {
     else{
         nextImg=imgNum+1
     }
-
+       imgSara.innerText = imgNum
     body.style.background =`url(./images/pic-${nextImg}.jpeg ) no-repeat`
     body.style.backgroundSize =`cover`
     img.src=`./images/pic-${imgNum}.jpeg`
